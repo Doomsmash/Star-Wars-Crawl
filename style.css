@@ -9,7 +9,7 @@ body
 
 h1
 {
-    color:blue;
+    color:cyan;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ p
     position: relative;
     justify-content: center;
     height: 800px;
-    perspective: 600px;
+    perspective: 800px;
     font-size: 5em;
   font-weight: bolder;
   letter-spacing: 10px;
@@ -36,9 +36,9 @@ p
 #crawl
 {
     position: relative;
-    top: 9999px;
+    top: 300px;
     transform-origin: 50% 100%;
-    animation: crawl 60s linear;
+    animation: crawl 10s linear;
 }
 
 @keyframes crawl
@@ -49,7 +49,7 @@ p
     }
     100%
     {
-        top: -6000px;
+        top: -6200px;
         transform: rotateX(30deg) translateZ(-3000px);
     }
 }
