@@ -16,7 +16,13 @@ h1
 p
 {
     color: yellow;
-    text-align: center;
+    text-align: justify;
+}
+
+#logo
+{
+    position: relative;
+    left: 560px;
 }
 
 #wrap
@@ -44,7 +50,7 @@ p
 @keyframes crawl
 {
     0%
-    { top: 0;
+    { top: 200px;
     transform: rotateX(30deg) translateZ(0);
     }
     100%
@@ -53,6 +59,8 @@ p
         transform: rotateX(30deg) translateZ(-3000px);
     }
 }
+
+
 
 .fade {
     position: relative;
