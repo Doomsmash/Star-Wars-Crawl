@@ -25,8 +25,8 @@ p
     position: relative;
     justify-content: center;
     height: 800px;
-    perspective: 800px;
-    font-size: 5em;
+    perspective: 900px;
+    font-size: 4em;
   font-weight: bolder;
   letter-spacing: 10px;
   line-height: 150%;
@@ -36,7 +36,7 @@ p
 #crawl
 {
     position: relative;
-    top: 300px;
+    top: -9999px;
     transform-origin: 50% 100%;
     animation: crawl 80s linear;
 }
